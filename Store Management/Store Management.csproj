@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A83D3405-C251-423D-86C9-71EC5EA73371}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Store_Management</RootNamespace>
+    <AssemblyName>Store Management</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add account manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add account manager.Designer.cs">
+      <DependentUpon>add account manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add account SK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add account SK.Designer.cs">
+      <DependentUpon>add account SK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Account.Designer.cs">
+      <DependentUpon>Add account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Emp.Designer.cs">
+      <DependentUpon>Add Emp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Suppliers.Designer.cs">
+      <DependentUpon>Add Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin create account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin create account.Designer.cs">
+      <DependentUpon>admin create account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin update account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin update account.Designer.cs">
+      <DependentUpon>admin update account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hand Over Summery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hand Over Summery.Designer.cs">
+      <DependentUpon>Hand Over Summery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hand over.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hand over.Designer.cs">
+      <DependentUpon>hand over.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login2.Designer.cs">
+      <DependentUpon>Login2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login3.Designer.cs">
+      <DependentUpon>login3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maneger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maneger.Designer.cs">
+      <DependentUpon>Maneger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Store Keeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Store Keeper.Designer.cs">
+      <DependentUpon>Store Keeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include=".cs" />
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update account manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update account manager.Designer.cs">
+      <DependentUpon>Update account manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update account SK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update account SK.Designer.cs">
+      <DependentUpon>Update account SK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update account.Designer.cs">
+      <DependentUpon>update account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View all materials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View all materials.Designer.cs">
+      <DependentUpon>View all materials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View All Suppliers%28SK%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View All Suppliers%28SK%29.Designer.cs">
+      <DependentUpon>View All Suppliers%28SK%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Emp%28sk%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Emp%28sk%29.Designer.cs">
+      <DependentUpon>View Emp%28sk%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view material.Designer.cs">
+      <DependentUpon>view material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view Suppliers.Designer.cs">
+      <DependentUpon>view Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add account manager.resx">
+      <DependentUpon>add account manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add account SK.resx">
+      <DependentUpon>add account SK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add account.resx">
+      <DependentUpon>Add account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Emp.resx">
+      <DependentUpon>Add Emp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Suppliers.resx">
+      <DependentUpon>Add Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin create account.resx">
+      <DependentUpon>admin create account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin update account.resx">
+      <DependentUpon>admin update account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hand Over Summery.resx">
+      <DependentUpon>Hand Over Summery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hand over.resx">
+      <DependentUpon>hand over.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login2.resx">
+      <DependentUpon>Login2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login3.resx">
+      <DependentUpon>login3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maneger.resx">
+      <DependentUpon>Maneger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Store Keeper.resx">
+      <DependentUpon>Store Keeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include=".resx">
+      <DependentUpon>.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update account manager.resx">
+      <DependentUpon>Update account manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update account SK.resx">
+      <DependentUpon>Update account SK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update account.resx">
+      <DependentUpon>update account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View all materials.resx">
+      <DependentUpon>View all materials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View All Suppliers%28SK%29.resx">
+      <DependentUpon>View All Suppliers%28SK%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Emp%28sk%29.resx">
+      <DependentUpon>View Emp%28sk%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view material.resx">
+      <DependentUpon>view material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view Suppliers.resx">
+      <DependentUpon>view Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
